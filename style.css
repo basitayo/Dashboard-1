@@ -10,7 +10,9 @@ body{
     padding: 20px;
     height: 100vh;
 }
-
+aside{
+    border-left: 1px solid #000000
+}
 .llisstt img{
     max-width: 50%;
 }
@@ -227,4 +229,5 @@ form input{
 }
 .card-c p{
     font-size: 0.7rem;
+
 }
