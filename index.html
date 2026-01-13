@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <aside class="sidebar">
+        <section class="llisstt">
+            
+            <nav>
+                <div>
+                    <img src="images/logo.png" alt="company logo">
+                </div>
+                <ul>
+                    <li><span class="material-icons-outlined">dashboard</span><a href="#">Dashboard</a></li>
+                    <li><span class="material-icons-outlined">receipt_long</span><a href="#">Invoice</a></li>
+                    <li><span class="material-icons-outlined">sync_alt</span><a href="#">Transactions</a></li>
+                    <li><span class="material-icons-outlined">credit_card</span><a href="#">Payment</a></li>
+                    <li><span class="material-icons-outlined">message</span><a href="#">Inbox</a></li>
+                    <li><span class="material-icons-outlined">settings</span><a href="#">Settings</a></li>
+                    <li><span class="material-icons-outlined">history</span><a href="#">History</a></li>
+                </ul>
+
+            </nav>
+
+            <nav>
+                <ul>
+                    <li><span class="material-icons-outlined">headset</span><a href="#">Support</a></li>
+                    <li><span class="material-icons-outlined">public</span><a href="#">Community</a></li>
+                </ul>
+            </nav>
+        </section>
+
+    </aside>
+
+    <main class="layout">
+        <header class="navbar">
+            <nav>
+                <h3>Hello, James</h3>
+
+                <div>
+                    <form action="">
+                        <label for="search">Search</label>
+                        <input type="search" id="search" placeholder="search">
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <section class="first-sec">
+            <div class="container-1">
+
+                <div class="card-container">
+
+                    <div class="card card-1">
+                        <div>
+                            <span class="material-icons-outlined">public</span>
+                        </div>
+                        <h4>Balance</h4>
+                        <p>November 2022</p>
+                        <h1>$18,345</h1>
+                    </div>
+
+                    <div class="card card-2">
+                        <div>
+                            <span class="material-icons-outlined">public</span>
+                        </div>
+                        <h4>Income</h4>
+                        <p>November 2022</p>
+                        <h1>$15,634</h1>
+                    </div>
+
+                    <div class="card card-3">
+                        <div>
+                            <span class="material-icons-outlined">public</span>
+                        </div>
+                        <h4>Expenses</h4>
+                        <p>November 2022</p>
+                        <h1>$12,643</h1>
+                    </div>
+
+                </div>
+            
+
+                <div class="invoice-table">
+
+                    <div class="table-heading">
+                        <h3>Invoice list</h3>
+                        <button type="button"><span class="material-icons-outlined">add</span></button>
+                    </div>
+                    <p>Latest Transaction</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Invoice number</th>
+                                <th>Phone Number</th>
+                                <th>Account type</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>James Robert</td>
+                                <td>jamesrober@gmail.com</td>
+                                <td class="eedit">21265AE4 <button type="button">Edit</button></td>
+                                <td>+123-456-7890</td>
+                                <td>Premium</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="second-cont">
+                <div class="container-2">
+                    <div class="card-4">
+                        <div class="card-content">
+                            <h3>My Cards</h3>
+                            <button><span class="material-icons-outlined">add</span></button>
+                        </div>
+
+                        <img src="images/card-im.svg" alt="cardimage">
+                    </div>
+
+                    <div class="card-5-container">
+                        <h3>Transaction history</h3>
+                        <div class="card-c card-6">
+                            <span class="material-icons-outlined">whatshot</span>
+                            <div>
+                                <h3>Tinder</h3>
+                                <p>05 November 2022 at 7:30 PM</p>
+                            </div>
+                        </div>
+                        <div class="card-c card-7">
+                            <span class="material-icons-outlined">wifi_channel</span>
+                            <div>
+                                <h3>Mainchimp</h3>
+                                <p>05 November 2022 at 3:30 PM</p>
+                            </div>
+                        </div>
+                        <div class="card-c card-8">
+                            <span class="material-icons-outlined">bakery_dining</span>
+                            <div>
+                                <h3>Github</h3>
+                                <p>15 November 2022 at 11:30 PM</p>
+                            </div>
+                        </div>
+                        <div class="card-c card-9">
+                            <span class="material-icons-outlined">water_drop</span>
+                            <div>
+                                <h3>Spotify</h3>
+                                <p>05 November 2022 at 10:30 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+</html>

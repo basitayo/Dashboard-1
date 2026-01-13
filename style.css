@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    padding: 20px;
+    height: 100vh;
+}
+
+.llisstt img{
+    max-width: 50%;
+}
+.llisstt li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    padding: 10px 2px;
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+.llisstt li:hover{
+    background-color: #ffd992;
+    color: green;
+}
+
+.llisstt a{
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.llisstt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95vh;
+}
+
+.navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.layout{
+    width: 100%;
+}
+.navbar h3{
+    font-weight: 600;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    /* how can i place an icon inside the input right before the placeholder */
+}
+
+.first-sec{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    
+}
+.card-container .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #ffd992; */
+    width: 90%;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.card h4{
+    font-weight: 500;
+}
+.card p{
+    font-size: 0.9rem;
+}
+.card h1{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.card-1{
+    background-color: #d9f0f7;
+}
+.card-2{
+    background-color: #e9b3ff;
+}
+.card-3{
+    background-color: #fbffc2;
+}
+
+.invoice-table{
+    margin-top: 20px;
+}
+.table-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.table-heading h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.table-heading button{
+    /* width: 5%; */
+    padding: 6px 10px;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+}
+.invoice-table p{
+    color: grey;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.invoice-table th, .invoice-table td{
+    text-align: left;
+    padding: 10px;
+}
+.invoice-table table{
+    width: 100%;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+.invoice-table th{
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+.invoice-table tbody{
+    background-color: white;
+}
+.invoice-table tbody td:hover{
+    background-color: #b9ffb9;
+    border-radius: 10px;
+}
+.eedit{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.eedit button{
+    width: 30%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #ffb79d;
+    background-color: #ffb79d;
+    cursor: pointer;
+}
+
+.container-2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.card-4 .card-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.card-content button{
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.card-4 h3{
+    font-weight: 500;
+}
+.card-4{
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-4 img{
+    max-width: 100%;
+    align-self: center;
+
+
+}
+.card-5-container{
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.card-5-container h3{
+    font-weight: 500;
+}
+
+.card-c{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-c:hover{
+    background-color: #ffb79d;
+    color: crimson;
+}
+.card-c h3{
+    font-size: 0.9rem;
+}
+.card-c p{
+    font-size: 0.7rem;
+}
