@@ -9,10 +9,9 @@ body{
     display: flex;
     padding: 20px;
     height: 100vh;
+    gap: 10px;
 }
-aside{
-    border-left: 1px solid #000000
-}
+
 .llisstt img{
     max-width: 50%;
 }
@@ -41,6 +40,7 @@ aside{
     flex-direction: column;
     justify-content: space-between;
     height: 95vh;
+    border-right: 2px solid #e6e6e6;
 }
 
 .navbar nav{
@@ -231,3 +231,4 @@ form input{
     font-size: 0.7rem;
 
 }
+
